@@ -283,9 +283,7 @@ function showResult() {
   const resultBox = document.getElementById("result-box");
   const maxScore = questions.length * 3;
   const percent = Math.round((totalScore / maxScore) * 100);
-
   const readableTheme = themeDisplayNames[currentTheme];
-
   const html = resultTemplate(
     userData,
     readableTheme,
@@ -293,7 +291,6 @@ function showResult() {
     maxScore,
     percent
   );
-
   document.getElementById("question-box").innerHTML = "";
   resultBox.innerHTML = html;
 }
@@ -301,9 +298,9 @@ function showResult() {
 
 
 function downloadPdf() {
-  var resultBox = document.getElementById("result-box");
+  const resultBox = document.getElementById("result-box");
   if (resultBox.innerHTML === "") {   
-    alert("Bitte zuerst den Test abschließen.");
+    showDialog("Bitte zuerst den Test abschließen.");
     return;
   }
   window.print();

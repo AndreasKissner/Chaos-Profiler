@@ -39,7 +39,7 @@ body {
 
 .subtitle {
     font-size: 0.9rem;
-    color: #9ca3af;
+    color: #f7f8fb;
 }
 
 .card {
@@ -106,7 +106,7 @@ select::placeholder {
 
 .primary-btn {
     background: linear-gradient(135deg, #fbbe247f, #f59f0b81);
-    color: #351f00;
+    color: #f5f4f2;
     width: 100%;
     margin-top: 8px;
 }
