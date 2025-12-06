@@ -21,18 +21,23 @@ body {
     background-repeat: no-repeat;
     color: #e5e7eb;
     min-height: 100vh;
+    /* ❌ das zerstört die Mobile-Ansicht:
     display: flex;
     align-items: center;
     justify-content: center;
+    */
+    display: block; /* oder einfach weglassen */
+    padding: 0;
 }
+
 
 
 
 #app {
     width: 100%;
-    max-width: 800px;
     padding: 16px;
 }
+
 
 .app-header {
     text-align: center;
