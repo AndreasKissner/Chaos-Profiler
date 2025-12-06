@@ -379,8 +379,14 @@ function downloadPdf() {
 window.addEventListener("DOMContentLoaded", () => {
   const dialog = document.getElementById("first-dialog");
   const btn = document.getElementById("first-dialog-btn");
+  const dialogSeen = localStorage.getItem("dialogSeen");
+
+  if (dialogSeen === "true") {
+    dialog.classList.add("hidden"); 
+  }
 
   btn.onclick = () => {
     dialog.classList.add("hidden");
+    localStorage.setItem("dialogSeen", "true"); 
   };
 });
