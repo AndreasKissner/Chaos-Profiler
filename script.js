@@ -1,3 +1,13 @@
+const themeDisplayNames = {
+  programmieren: "Programmieren",
+  familie: "Familie",
+  freizeit: "Freizeit",
+  geld: "Geld",
+  beruf: "Beruf",
+  ernaehrung: "Ernährung",
+  ki: "KI (Easter Egg )"
+};
+
 const userData = { name: "", age: "", gender: "" };  // Objekt bleibt, Werte ändern sich
 let currentTheme = "";                                // ändert sich 
 let questions = [];                                    // Inhalte ändern sich
@@ -177,7 +187,7 @@ function getProfileKi(level) {
   return "Du nutzt KI erstaunlich bewusst. Vielleicht bist du der Mensch, vor dem die Roboter irgendwann ehrfürchtig sagen: 'Bitte lehre uns, wie man aufräumt.'";
 }
 
-function getAdviceText() {
+function  getAdviceText() {
   let level = getLevel();
   if (currentTheme === "programmieren") { return getAdviceProgrammieren(level); }
   if (currentTheme === "familie") { return getAdviceFamilie(level); }
@@ -267,4 +277,34 @@ function getAdviceAllgemein(level) {
     return "Du stehst schon auf einem soliden Mittelweg. Ein paar bewusste Entscheidungen können aus \"ganz okay\" ein Leben machen, das sich stimmig anfühlt.";
   }
   return "Deine Ordnung ist eine Ressource, kein Urteil. Nutze sie, um dir selbst ein Leben zu bauen, in dem du dich innerlich sicher und lebendig fühlst.";
+}
+
+function showResult() {
+  const resultBox = document.getElementById("result-box");
+  const maxScore = questions.length * 3;
+  const percent = Math.round((totalScore / maxScore) * 100);
+
+  const readableTheme = themeDisplayNames[currentTheme];
+
+  const html = resultTemplate(
+    userData,
+    readableTheme,
+    totalScore,
+    maxScore,
+    percent
+  );
+
+  document.getElementById("question-box").innerHTML = "";
+  resultBox.innerHTML = html;
+}
+
+
+
+function downloadPdf() {
+  var resultBox = document.getElementById("result-box");
+  if (resultBox.innerHTML === "") {   
+    alert("Bitte zuerst den Test abschließen.");
+    return;
+  }
+  window.print();
 }
