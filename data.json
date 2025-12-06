@@ -1,0 +1,394 @@
+{
+  "programmieren": [
+    {
+      "text": "Dein Projekt ist voll mit alten Dateien, halbfertigen Funktionen und Testversionen. Wie gehst du mit diesem digitalen Chaos um?",
+      "a": "Ich nehme mir bewusst Zeit, sortiere alles und trenne mich von dem, was mich nur noch blockiert.",
+      "b": "Ich räume das weg, was mich gerade stört, und lasse den Rest erst einmal liegen.",
+      "c": "Ich blende das Chaos aus und hoffe, dass ich schon irgendwie zurechtkomme.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du arbeitest an einem Bug, und je länger du suchst, desto unübersichtlicher fühlt sich dein Code an.",
+      "a": "Ich atme durch, strukturiere den Code neu und gehe Schritt für Schritt vor.",
+      "b": "Ich probiere verschiedene Stellen aus, bis ich hoffentlich die richtige finde.",
+      "c": "Ich verliere die Geduld und bastle so lange herum, bis es irgendwie funktioniert.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "In deinem Code gibt es viele Stellen, die du als \"später aufräumen\" markiert hast.",
+      "a": "Ich plane bewusst Zeit ein, um aufzuräumen, bevor ich Neues beginne.",
+      "b": "Ich räume gelegentlich etwas auf, wenn es sich gerade ergibt.",
+      "c": "Ich ignoriere die Markierungen und hoffe, dass ich es nie wieder ansehen muss.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du findest mehrere Versionen derselben Funktion in verschiedenen Dateien.",
+      "a": "Ich entscheide mich bewusst für eine klare Lösung und lösche den Rest.",
+      "b": "Ich lasse mehrere Varianten liegen, falls ich sie später noch brauche.",
+      "c": "Ich weiß gar nicht mehr, welche Version was macht, und flicke nur dort, wo es brennt.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Dein Git-Log ist voll mit Notfall-Commits wie \"fix2\" oder \"final_final\".",
+      "a": "Ich beginne, bewusste Commit-Nachrichten zu schreiben, um meinem zukünftigen Ich zu helfen.",
+      "b": "Ich bemühe mich manchmal um Klarheit, falle aber oft in alte Muster zurück.",
+      "c": "Ich denke mir: Hauptsache es ist committed, der Rest ist mir egal.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Auf deinem Desktop sammeln sich Screenshots, ZIPs und Snippets aus alten Projekten.",
+      "a": "Ich schaffe mir feste Orte für Aktuelles und archiviere oder lösche den Rest.",
+      "b": "Ich verschiebe gelegentlich etwas in Ordner, wenn es zu voll wird.",
+      "c": "Ich nehme das Durcheinander als Preis dafür hin, dass ich alles schnell griffbereit habe.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    }
+  ],
+  "familie": [
+    {
+      "text": "Deine Wohnung zeigt deutlich, wie hektisch euer Alltag ist: Kleidung, Spielsachen, Papierstapel.",
+      "a": "Ich suche gemeinsam mit der Familie einfache Rituale, die uns Ordnung und Ruhe zurückgeben.",
+      "b": "Ich räume vieles selbst weg und hoffe, dass der Rest sich irgendwie einpendelt.",
+      "c": "Ich sage mir: So ist Familienleben eben, und verdränge das Unbehagen dabei.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du kommst nach einem langen Tag nach Hause und überall liegen Dinge herum.",
+      "a": "Ich atme kurz durch, räume eine kleine Zone auf und gönne mir dann bewusst Pause.",
+      "b": "Ich schiebe etwas hin und her, bis es halbwegs erträglich ist.",
+      "c": "Ich mache das Licht aus, ignoriere es und hoffe auf mehr Energie an einem anderen Tag.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Es gibt Ecken in der Wohnung, die du innerlich \"Chaos-Zone\" nennst.",
+      "a": "Ich gehe diese Ecken nacheinander an und schaffe Orte, die sich nach Zuhause anfühlen.",
+      "b": "Ich räume hin und wieder auf, wenn mich eine Ecke zu sehr nervt.",
+      "c": "Ich schaue möglichst nicht hin, um mich nicht schuldig oder überfordert zu fühlen.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Absprachen im Familienalltag (Wer macht was? Wer ist wann wo?) verlaufen oft chaotisch.",
+      "a": "Ich wünsche mir Klarheit und führe einfache, sichtbare Regeln oder Pläne ein.",
+      "b": "Ich spreche Dinge an, aber vieles bleibt trotzdem spontan und ungeplant.",
+      "c": "Ich mache lieber vieles selbst, als wieder über Aufgaben diskutieren zu müssen.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Der Familienkalender ist unvollständig oder wird selten genutzt.",
+      "a": "Ich übernehme Verantwortung und trage konsequent alles ein, was wichtig ist.",
+      "b": "Ich ergänze das Wichtigste, verlasse mich aber oft auf mein Gedächtnis.",
+      "c": "Ich spüre zwar das Chaos, aber fühle mich zu müde, um etwas daran zu ändern.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Besuch kündigt sich an, und du merkst, wie sehr du dich für das Chaos schämst.",
+      "a": "Ich nutze das als Anlass, gemeinsam etwas zu verändern – nicht nur zu verstecken.",
+      "b": "Ich räume das Gröbste weg und hoffe, dass niemand genauer hinsieht.",
+      "c": "Ich spiele es herunter und tue so, als würde mich das alles nicht berühren.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    }
+  ],
+  "freizeit": [
+    {
+      "text": "Du hast viele Hobbys, Ideen und Pläne, aber wenig davon fühlt sich wirklich zu Ende gedacht an.",
+      "a": "Ich entscheide mich bewusst für ein paar Herzensprojekte und gebe ihnen Raum.",
+      "b": "Ich springe zwischen mehreren Projekten hin und her, bis eins sich durchsetzt.",
+      "c": "Ich fange vieles an, aber verliere schnell die Struktur und auch die Lust.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Dein Hobbyraum oder deine Ecke für Freizeit ist eher \"Fundgrube\" als Rückzugsort.",
+      "a": "Ich will, dass dieser Ort mir Energie gibt, und richte ihn Schritt für Schritt bewusst ein.",
+      "b": "Ich räume gelegentlich etwas auf, um wieder arbeiten oder spielen zu können.",
+      "c": "Ich sage mir, kreatives Chaos gehört dazu, auch wenn es mich innerlich manchmal unruhig macht.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Freizeit verpasst du oft, weil der Tag einfach so verläuft.",
+      "a": "Ich plane bewusst kleine Inseln für Dinge ein, die mir wirklich gut tun.",
+      "b": "Ich nehme mir vorsichtig vor, mehr auf mich zu achten, vergesse es aber manchmal.",
+      "c": "Ich funktioniere im Alltag und hoffe, dass die Freizeit irgendwann von selbst kommt.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Deine Fotos, Spiele oder Bücher sind schwer wiederzufinden.",
+      "a": "Ich sortiere so, dass ich meine Erinnerungen und Lieblingsdinge leicht wiederfinde.",
+      "b": "Ich weiß ungefähr, wo alles ist, auch wenn es nicht perfekt geordnet ist.",
+      "c": "Ich verliere den Überblick und gebe irgendwann auf, Dinge zu suchen, die ich mochte.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du merkst, dass du oft auf dem Sofa hängst, statt etwas zu tun, das dir wirklich Kraft gibt.",
+      "a": "Ich höre auf dieses Gefühl und plane bewusst kleine Schritte, die mir guttun.",
+      "b": "Ich nehme mir vor, es anders zu machen, verliere aber schnell den Faden.",
+      "c": "Ich drücke das Gefühl weg und lenke mich weiter mit Serien, Handy oder Snacks ab.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Deine Freizeit wirkt manchmal wie eine Verlängerung der To-do-Liste.",
+      "a": "Ich erlaube mir bewusst Zeiten ohne Leistung, nur für mich.",
+      "b": "Ich versuche, beides zu mischen: Erledigen und Genießen.",
+      "c": "Ich funktioniere weiter im Pflichtmodus und verliere die Verbindung zu meinen Bedürfnissen.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    }
+  ],
+  "geld": [
+    {
+      "text": "Am Monatsende überrascht dich dein Kontostand – nach oben oder nach unten.",
+      "a": "Ich führe ein einfaches Protokoll und schaue ehrlich hin, wohin mein Geld fließt.",
+      "b": "Ich schaue gelegentlich aufs Konto, wenn ein ungutes Gefühl auftaucht.",
+      "c": "Ich vermeide es, genauer hinzusehen, um mich nicht schuldig oder überfordert zu fühlen.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Rechnungen bleiben manchmal liegen, obwohl du weißt, dass sie da sind.",
+      "a": "Ich öffne sie zeitnah und schaffe mir einen festen Platz für alles Finanzielle.",
+      "b": "Ich erledige Rechnungen in Schüben, wenn der Stapel mich zu sehr anschaut.",
+      "c": "Ich ignoriere sie so lange wie möglich und hoffe, dass es schon irgendwie gut geht.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du wünschst dir mehr finanzielle Sicherheit oder Freiheit.",
+      "a": "Ich lege bewusst Geld zur Seite und behandle meine Ziele wie ernst gemeinte Versprechen an mich selbst.",
+      "b": "Ich spare, wenn gerade etwas übrig bleibt, ohne festen Plan.",
+      "c": "Ich schiebe das Thema vor mir her, weil es sich zu groß und anstrengend anfühlt.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Spontankäufe fühlen sich im Moment gut an, später aber oft schwer im Bauch.",
+      "a": "Ich baue mir kleine Pausen ein, bevor ich entscheide, ob ich etwas wirklich brauche.",
+      "b": "Ich gönne mir etwas, achte aber grob darauf, nicht zu übertreiben.",
+      "c": "Ich kaufe im Impuls und hoffe, dass ich es später nicht bereue.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du hast wichtige Unterlagen (Verträge, Versicherungen, Lohnabrechnungen) an vielen Orten verteilt.",
+      "a": "Ich erschaffe mir einen einzigen, klaren Ort, an dem ich mich sicher fühlen darf.",
+      "b": "Ich sammle das Wichtigste zusammen, auch wenn noch nicht alles perfekt sortiert ist.",
+      "c": "Ich vertraue darauf, dass ich im Notfall schon irgendwo etwas wiederfinde.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Geldthemen lösen in dir eher Anspannung als Leichtigkeit aus.",
+      "a": "Ich stelle mich diesem Gefühl und baue mir Schritt für Schritt mehr Übersicht auf.",
+      "b": "Ich beschäftige mich damit, wenn es sein muss, schiebe es aber auch gern weg.",
+      "c": "Ich verdränge das Thema, weil ich Angst habe, mich dabei schlecht zu fühlen.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    }
+  ],
+  "beruf": [
+    {
+      "text": "Dein Arbeitsplatz zeigt deutlich, wie viel bei dir los ist: Notizen, Zettel, Dateien, Tabs.",
+      "a": "Ich gönne mir regelmäßig kurze Aufräum-Momente, damit mein Kopf wieder klarer wird.",
+      "b": "Ich räume auf, wenn ich merke, dass ich nichts mehr wiederfinde.",
+      "c": "Ich arbeite im Dauer-Feuerwehrmodus und nehme das Chaos als gegeben hin.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du bekommst mehrere Aufgaben gleichzeitig und spürst inneren Druck.",
+      "a": "Ich priorisiere bewusst und erlaube mir, nicht alles gleichzeitig leisten zu müssen.",
+      "b": "Ich erledige das Dringendste zuerst und hoffe, dass der Rest nachkommt.",
+      "c": "Ich lasse mich vom Druck treiben und verliere das Gefühl von Kontrolle.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Dein E-Mail-Postfach wirkt eher wie ein endloser Strom als wie ein Werkzeug.",
+      "a": "Ich schaffe mir klare Ordner und Zeiten, in denen ich Mails bewusst bearbeite.",
+      "b": "Ich markiere Wichtiges und lasse vieles im Hintergrund weiterrauschen.",
+      "c": "Ich lasse alles reinprasseln und reagiere nur noch, statt zu steuern.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Projekte starten oft chaotisch oder unter Zeitdruck.",
+      "a": "Ich halte kurz inne, strukturiere das Wesentliche und schaffe mir Klarheit.",
+      "b": "Ich starte und sortiere mich unterwegs, so gut es geht.",
+      "c": "Ich stürze mich hinein und hoffe, unterwegs nicht den Überblick zu verlieren.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du nimmst dir vor, Grenzen zu setzen – und landest trotzdem oft in Überstunden.",
+      "a": "Ich beginne, meine eigenen Grenzen ernster zu nehmen als den ständigen Erwartungsdruck.",
+      "b": "Ich sage manchmal Nein, aber oft fällt es mir schwer, mich selbst zu schützen.",
+      "c": "Ich stelle meine Bedürfnisse hinten an, bis nichts mehr geht.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Am Ende eines Arbeitstages fühlst du dich eher leer als zufrieden.",
+      "a": "Ich prüfe ehrlich, was ich ändern kann, um wieder mehr Sinn und Struktur zu spüren.",
+      "b": "Ich hoffe auf bessere Phasen und halte erst einmal durch.",
+      "c": "Ich lenke mich ab und schiebe die Frage nach Veränderungen weit weg.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    }
+  ],
+  "ernaehrung": [
+    {
+      "text": "Du isst häufig nebenbei: vor dem Bildschirm, im Stehen oder zwischen Tür und Angel.",
+      "a": "Ich möchte meinem Körper mehr Aufmerksamkeit schenken und plane bewusste Mahlzeiten ein.",
+      "b": "Ich versuche gelegentlich, bewusster zu essen, falle aber oft in alte Muster.",
+      "c": "Ich esse einfach, wenn sich eine Gelegenheit ergibt, ohne groß darüber nachzudenken.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Deine Vorräte bestehen aus einer Mischung aus Gesunden und Schnell-Lösungen.",
+      "a": "Ich richte mir Vorräte so ein, dass es leicht ist, gut für mich zu sorgen.",
+      "b": "Ich kaufe gemischt ein und entscheide spontan, worauf ich Lust habe.",
+      "c": "Ich greife meist zu dem, was schnell und verfügbar ist, auch wenn es mir langfristig nicht gut tut.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Stress beeinflusst dein Essverhalten deutlich.",
+      "a": "Ich nehme das ernst und suche andere Wege, mit Stress umzugehen als über Essen.",
+      "b": "Ich bemerke es, wenn ich aus Stress esse, aber ändere es nur manchmal.",
+      "c": "Ich esse, um mich zu beruhigen oder zu betäuben, und rede mir ein, dass es gerade nicht anders geht.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du hast schon öfter versucht, deine Ernährung umzustellen.",
+      "a": "Ich gehe es diesmal in kleinen Schritten an, die wirklich zu meinem Alltag passen.",
+      "b": "Ich starte motiviert, verliere aber schnell die Struktur und Orientierung.",
+      "c": "Ich verzichte lieber auf neue Versuche, um nicht wieder enttäuscht von mir zu sein.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Mit dir selbst gehst du beim Essen oft strenger oder nachlässiger um als mit anderen.",
+      "a": "Ich möchte lernen, meinen Körper so zu behandeln, wie ich es einem Menschen wünschen würde, den ich liebe.",
+      "b": "Ich merke diese Unterschiede, weiß aber noch nicht, wie ich es ändern kann.",
+      "c": "Ich stecke im Muster fest und nehme meine eigenen Bedürfnisse kaum wahr.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Nach manchen Mahlzeiten fühlst du dich eher schwer als genährt.",
+      "a": "Ich nutze dieses Gefühl als Einladung, liebevoller mit meiner Ernährung umzugehen.",
+      "b": "Ich nehme es wahr, aber ändere nur gelegentlich etwas daran.",
+      "c": "Ich verdränge das Gefühl und mache einfach weiter wie bisher.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    }
+  ],
+  "ki": [
+    {
+      "text": "Deine KI fragt dich, ob sie deinen Alltag optimieren soll. Was ist dein erster Gedanke?",
+      "a": "Ja, bitte, sortier mein Leben – aber fang bei meinem Wäschekorb an.",
+      "b": "Solange sie nicht weiß, wie oft ich nachts aufs Handy schaue, ist alles gut.",
+      "c": "Wenn die KI meinen Kopf sieht, schmeißt sie wahrscheinlich sofort einen Bluescreen.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du hast 37 Chats mit KI offen und weißt nicht mehr, welcher der \"wichtige\" war.",
+      "a": "Ich nenne einen Chat \"Chaos-Bändiger\" und schwöre, ab jetzt alles dort zu sammeln.",
+      "b": "Ich scrolle einfach, bis mich etwas weniger verwirrt als der Rest.",
+      "c": "Ich eröffne einen neuen Chat und frage die KI, wo ich die alten gelassen habe.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Die KI schreibt dir perfekte To-do-Listen. Du…",
+      "a": "druckst sie aus, hängst sie auf und machst zumindest die Hälfte.",
+      "b": "liest sie, nickst ernst – und verlierst sie dann im Tab-Dschungel.",
+      "c": "bittest die KI, die Aufgaben auch gleich zu erledigen, weil du gerade beschäftigt bist.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du lässt die KI deine Wohnung \"virtuell\" aufräumen.",
+      "a": "Sie schlägt dir Zonen und Routinen vor – du fühlst dich kurz so ordentlich wie in einer Werbung.",
+      "b": "Du speicherst den Plan und nennst ihn: \"Projekt: Irgendwann\".",
+      "c": "Du sagst der KI, sie soll erst mal deine Socken sortieren, dann reden wir weiter.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Die KI lobt dich für deinen Fortschritt. Wie reagierst du?",
+      "a": "Ich nehme es an und denke: Endlich jemand, der meine kleinen Schritte sieht.",
+      "b": "Ich grinse und klicke weiter, als wäre nichts gewesen.",
+      "c": "Ich erkläre der KI, dass sie offensichtlich die falschen Daten ausgewertet hat.",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    },
+    {
+      "text": "Du könntest die KI nach deinem inneren Chaos fragen.",
+      "a": "Ich frage sie – und schreibe mir ehrlich auf, was in mir dabei hochkommt.",
+      "b": "Ich formuliere einen halbernsten Witz, um nicht zu tief einzusteigen.",
+      "c": "Ich schreibe nur: \"Lass mal gut sein, wir bleiben bei Katzenbildern.\"",
+      "aPoints": 3,
+      "bPoints": 2,
+      "cPoints": 1
+    }
+  ]
+}

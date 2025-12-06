@@ -7,8 +7,8 @@
 
 body {
     background:
-        linear-gradient(135deg, #1e293b99, #0f172aee), 
-        url("./assets/bg.png");                       
+        linear-gradient(135deg, #1e293b99, #0f172aee),
+        url("./assets/bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,25 +70,25 @@ label {
     margin-bottom: 4px;
     font-size: 1.2rem;
     font-weight: 800;
-    color: #a7f3d0; /* weiches, warmes Teal */
+    color: #a7f3d0;
 }
 
 input,
 select {
     padding: 8px 10px;
     border-radius: 8px;
-    border: 1px solid #134e4a; /* softer, angenehmer Rand */
-    background: #0713126a;       /* dunkles, warmes Petrol statt kaltes Blau */
-    color: #f4f6f5;            /* leicht mintig, besser lesbar */
+    border: 1px solid #134e4a;
+    background: #0713126a;
+    color: #f4f6f5;
     outline: none;
     transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 input::placeholder,
 select::placeholder {
-    color: #f8fafb;          /* fast weiß, deutlich sichtbar */
-    opacity: 0.9;            /* stärker, klarer */
-    font-weight: 500;        /* leicht kräftiger */
+    color: #f8fafb;
+    opacity: 0.9;
+    font-weight: 500;
 }
 
 
@@ -105,7 +105,7 @@ select::placeholder {
 }
 
 .primary-btn {
-  background: linear-gradient(135deg, #fbbe247f, #f59f0b81);
+    background: linear-gradient(135deg, #fbbe247f, #f59f0b81);
     color: #351f00;
     width: 100%;
     margin-top: 8px;
