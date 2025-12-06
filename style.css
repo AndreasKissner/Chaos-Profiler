@@ -235,6 +235,15 @@ select::placeholder {
     width: 100%;
 }
 
+@media (max-width: 821px) {
+  .subtitle {
+    margin-bottom: 70px;
+  }
+  .app-header h1{
+    margin-bottom: 50px;
+  }
+}
+
 @media (max-width: 600px) {
     .card {
         padding: 16px;
