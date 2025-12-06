@@ -21,23 +21,14 @@ body {
     background-repeat: no-repeat;
     color: #e5e7eb;
     min-height: 100vh;
-    /* ❌ das zerstört die Mobile-Ansicht:
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    */
-    display: block; /* oder einfach weglassen */
+    display: block; 
     padding: 0;
 }
-
-
-
 
 #app {
     width: 100%;
     padding: 16px;
 }
-
 
 .app-header {
     text-align: center;
@@ -48,7 +39,6 @@ body {
     font-size: 1.8rem;
     margin-bottom: 4px;
 }
-
 
 .subtitle {
     font-size: 0.9rem;
@@ -70,8 +60,6 @@ body {
     margin: 0 auto;  
 }
 
-
-
 .hidden {
     display: none;
 }
@@ -86,7 +74,6 @@ body {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-
     padding: 10px 14px;
     border-radius: 8px;
     border: 1px solid #134e4a;
@@ -94,12 +81,10 @@ body {
     color: #e5fffa;
     font-size: 0.95rem;
     cursor: pointer;
-
     background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7L10 12L15 7' stroke='%232dd4bf' stroke-width='2'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 16px;
-
     transition: border-color 0.15s ease, background 0.15s ease;
 }
 
@@ -133,7 +118,6 @@ select::placeholder {
     opacity: 0.9;
     font-weight: 500;
 }
-
 
 .primary-btn,
 .secondary-btn,
@@ -213,20 +197,6 @@ select::placeholder {
     justify-content: flex-end;
 }
 
-@media (max-width: 600px) {
-    .card {
-        padding: 16px;
-    }
-
-    .theme-buttons {
-        flex-direction: column;
-    }
-
-    .theme-btn {
-        width: 100%;
-    }
-}
-
 /* Dialog fnester */
 .dialog {
     position: fixed;
@@ -265,3 +235,16 @@ select::placeholder {
     width: 100%;
 }
 
+@media (max-width: 600px) {
+    .card {
+        padding: 16px;
+    }
+
+    .theme-buttons {
+        flex-direction: column;
+    }
+
+    .theme-btn {
+        width: 100%;
+    }
+}
