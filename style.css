@@ -18,3 +18,167 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
+#app {
+    width: 100%;
+    max-width: 800px;
+    padding: 16px;
+}
+
+.app-header {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.app-header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 4px;
+}
+
+
+.subtitle {
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.card {
+    background:
+        linear-gradient(135deg, rgba(7, 19, 18, 0.32), rgba(7, 19, 18, 0.88)),
+        url("./assets/bg-cards.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(45, 212, 191, 0.25);
+}
+
+
+.hidden {
+    display: none;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+label {
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #a7f3d0; /* weiches, warmes Teal */
+}
+
+input,
+select {
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #134e4a; /* softer, angenehmer Rand */
+    background: #0713126a;       /* dunkles, warmes Petrol statt kaltes Blau */
+    color: #f4f6f5;            /* leicht mintig, besser lesbar */
+    outline: none;
+    transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+input::placeholder,
+select::placeholder {
+    color: #f8fafb;          /* fast weiß, deutlich sichtbar */
+    opacity: 0.9;            /* stärker, klarer */
+    font-weight: 500;        /* leicht kräftiger */
+}
+
+
+.primary-btn,
+.secondary-btn,
+.theme-btn {
+    border-radius: 999px;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, opacity 0.1s ease;
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, #fbbe247f, #f59f0b81);
+    color: #351f00;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.secondary-btn {
+    background: rgba(148, 163, 184, 0.16);
+    color: #e5e7eb;
+}
+
+.theme-btn {
+    background: rgba(56, 189, 248, 0.16);
+    color: #e0f2fe;
+    min-width: 150px;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover,
+.theme-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.4);
+    opacity: 0.95;
+}
+
+.theme-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+#question-box h2 {
+    margin-bottom: 8px;
+}
+
+#question-box p {
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+#question-box button {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.result-box {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(148, 163, 184, 0.4);
+}
+
+.result-box p {
+    margin-top: 4px;
+}
+
+.actions {
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+    .card {
+        padding: 16px;
+    }
+
+    .theme-buttons {
+        flex-direction: column;
+    }
+
+    .theme-btn {
+        width: 100%;
+    }
+}
