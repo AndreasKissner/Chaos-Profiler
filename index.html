@@ -2,12 +2,15 @@
 <html lang="de">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>What </title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Personal Chaos Analyse App  </title>
+    <link id="styleLink" rel="stylesheet">
+    <script src="./version-loader.js"></script>
+
 </head>
 
 <body>
+    <div id="app">
     <header class="app-header">
         <h1>Ordnungs- / Unordnungsprofil</h1>
         <p class="subtitle">
@@ -20,11 +23,11 @@
         <h2>Deine Angaben</h2>
         <div class="form-row">
             <label for="user-name">Name</label>
-            <input id="user-name" type="text" placeholder="Dein Name" />
+            <input id="user-name" type="text" placeholder="Dein Name">
         </div>
         <div class="form-row">
             <label for="user-age">Alter</label>
-            <input id="user-age" type="number" min="10" max="120" placeholder="z.B. 35" />
+            <input id="user-age" type="number" min="10" max="120" placeholder="z.B. 35">
         </div>
         <div class="form-row">
             <label for="user-gender">Geschlecht</label>
@@ -69,6 +72,22 @@
         </div>
     </section>
 
+
+    <section id="quiz-screen" class="card hidden">
+        <div id="question-box"></div>
+        <div id="result-box" class="result-box"></div>
+        <div class="actions">
+            <button class="secondary-btn" onclick="resetToStart()">
+                Zurück zum Start
+            </button>
+            <button class="secondary-btn" onclick="downloadPdf()">
+                Profil als PDF (Drucken → PDF)
+            </button>
+        </div>
+    </section>
+</div>
+
+<script src="./script.js"></script>
 
 </body>
 
