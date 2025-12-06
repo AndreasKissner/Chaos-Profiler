@@ -1,104 +1,119 @@
 <!DOCTYPE html>
 <html lang="de">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Personal Chaos Analyse App  </title>
-    <link id="styleLink" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Personal Chaos Analyse App</title>
+    <link id="styleLink" rel="stylesheet" />
     <script src="./version-loader.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div id="app">
-    <header class="app-header">
-        <h1>Ordnungs- / Unordnungsprofil</h1>
+      <header class="app-header">
+        <h1>Ordnungs- / Unordnungsprofil mit App Empfehlung</h1>
         <p class="subtitle">
-            Spielerischer Psychotest für Programmieren, Familie, Freizeit, Geld,
-            Beruf, Ernährung & KI
+          Spielerischer Psychotest für Programmieren, Familie, Freizeit, Geld,
+          Beruf, Ernährung & KI
         </p>
-    </header>
+      </header>
 
-    <section id="start-screen" class="card">
+      <section id="start-screen" class="card">
         <h2>Deine Angaben</h2>
         <div class="form-row">
-            <label for="user-name">Name</label>
-            <input id="user-name" type="text" placeholder="Dein Name">
+          <label for="user-name">Name</label>
+          <input id="user-name" type="text" placeholder="Dein Name" />
         </div>
         <div class="form-row">
-            <label for="user-age">Alter</label>
-            <input id="user-age" type="number" min="10" max="120" placeholder="z.B. 35">
+          <label for="user-age">Alter</label>
+          <input
+            id="user-age"
+            type="number"
+            min="10"
+            max="120"
+            placeholder="z.B. 35"
+          />
         </div>
         <div class="form-row">
-            <label for="user-gender">Geschlecht</label>
-            <select id="user-gender">
-                <option value="">Bitte wählen</option>
-                <option value="weiblich">Weiblich</option>
-                <option value="männlich">Männlich</option>
-                <option value="divers">Divers</option>
-                <option value="keine Angabe">Keine Angabe</option>
-            </select>
+          <label for="user-gender">Geschlecht</label>
+          <select id="user-gender" class="styled-select">
+            <option value="">Bitte wählen</option>
+            <option value="weiblich">Weiblich</option>
+            <option value="männlich">Männlich</option>
+            <option value="keine Angabe">Keine Angabe</option>
+          </select>
         </div>
-        <button class="primary-btn" onclick="startApp()">
-            Weiter zur Themenauswahl
-        </button>
-    </section>
 
-     <section id="theme-screen" class="card hidden">
+        <button class="primary-btn" onclick="startApp()">
+          Weiter zur Themenauswahl
+        </button>
+      </section>
+
+      <section id="theme-screen" class="card hidden">
         <h2>Wähle ein Thema</h2>
         <p>In welchem Bereich möchtest du dein Ordnungsprofil testen?</p>
         <div class="theme-buttons">
-            <button class="theme-btn" onclick="chooseTheme('programmieren')">
-                Programmieren
-            </button>
-            <button class="theme-btn" onclick="chooseTheme('familie')">
-                Familie
-            </button>
-            <button class="theme-btn" onclick="chooseTheme('freizeit')">
-                Freizeit
-            </button>
-            <button class="theme-btn" onclick="chooseTheme('geld')">
-                Geld
-            </button>
-            <button class="theme-btn" onclick="chooseTheme('beruf')">
-                Beruf
-            </button>
-            <button class="theme-btn" onclick="chooseTheme('ernaehrung')">
-                Ernährung
-            </button>
-            <button class="theme-btn" onclick="chooseTheme('ki')">
-                KI (Easter Egg 🤖)
-            </button>
+          <button class="theme-btn" onclick="chooseTheme('programmieren')">
+            Programmieren
+          </button>
+          <button class="theme-btn" onclick="chooseTheme('familie')">
+            Familie
+          </button>
+          <button class="theme-btn" onclick="chooseTheme('freizeit')">
+            Freizeit
+          </button>
+          <button class="theme-btn" onclick="chooseTheme('geld')">Geld</button>
+          <button class="theme-btn" onclick="chooseTheme('beruf')">
+            Beruf
+          </button>
+          <button class="theme-btn" onclick="chooseTheme('ernaehrung')">
+            Ernährung
+          </button>
+          <button class="theme-btn" onclick="chooseTheme('ki')">
+            KI (Easter Egg 🤖)
+          </button>
         </div>
-    </section>
+      </section>
 
-
-    <section id="quiz-screen" class="card hidden">
+      <section id="quiz-screen" class="card hidden">
         <div id="question-box"></div>
         <div id="result-box" class="result-box"></div>
         <div class="actions">
-            <button class="secondary-btn" onclick="resetToStart()">
-                Zurück zum Start
-            </button>
-            <button class="secondary-btn" onclick="downloadPdf()">
-                Profil als PDF (Drucken → PDF)
-            </button>
+          <button class="secondary-btn" onclick="resetToStart()">
+            Zurück zum Start
+          </button>
+          <button class="secondary-btn" onclick="downloadPdf()">
+            Profil als PDF (Drucken → PDF)
+          </button>
         </div>
-    </section>
-</div>
+      </section>
+    </div>
 
-<!-- Dialog fenster -->
- <div id="custom-dialog" class="dialog hidden">
+    <!-- First dialog -->
+     <!-- START-DIALOG (blockiert alles beim Laden) -->
+<div id="first-dialog" class="dialog">
   <div class="dialog-content">
-    <p id="dialog-message"></p>
-    <button id="dialog-btn">OK</button>
+    <p id="first-dialog-message">
+      Was bringen dir all die Apps der Welt, die Ordnung in dein Leben
+      bringen könnten – wenn du nicht weißt, welche wirklich zu dir passt?<br><br>
+      Chaos, Balance oder Struktur … jedes davon erzählt etwas über dich.
+      Und genau das findest du jetzt heraus. Dein persönliches Ordnungsprofil –
+      mit einer App-Empfehlung, die wirklich zu dir passt.
+    </p>
+    <button id="first-dialog-btn">OK</button>
   </div>
 </div>
 
-<script src="/dialog.js"></script>
-<script src="./template.js"></script>
-<script src="./script.js"></script>
 
-</body>
+    <!-- Dialog fenster -->
+    <div id="custom-dialog" class="dialog hidden">
+      <div class="dialog-content">
+        <p id="dialog-message"></p>
+        <button id="dialog-btn">OK</button>
+      </div>
+    </div>
 
+    <script src="/dialog.js"></script>
+    <script src="./template.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
