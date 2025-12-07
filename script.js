@@ -374,7 +374,6 @@ function downloadPdf() {
   window.print();
 }
 
-
 /* Dialog */
 window.addEventListener("DOMContentLoaded", () => {
   const dialog = document.getElementById("first-dialog");
